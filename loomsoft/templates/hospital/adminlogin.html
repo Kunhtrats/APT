@@ -55,8 +55,6 @@
   <br>
   <br>
   <br><br>
-
-  <!--- login page for admin by admin(sumit)  ---------->
   <form method="post">
     {% csrf_token %}
     <div class="container register-form">
@@ -70,14 +68,14 @@
             <div class="col-md-6">
 
               <div class="form-group">
-                {% render_field form.username class="form-control" placeholder="Username" %}
+                {% render_field form.username class="form-control" placeholder="Usuario" %}
               </div>
 
             </div>
             <div class="col-md-6">
 
               <div class="form-group">
-                {% render_field form.password class="form-control" placeholder="Password" %}
+                {% render_field form.password class="form-control" placeholder="Contraseña" %}
               </div>
 
             </div>
