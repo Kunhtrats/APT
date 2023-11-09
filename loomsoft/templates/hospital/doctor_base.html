@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Loomsoft</title>
-
+  <link rel="icon" href="{% static "images/favicon.png" %}" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -25,13 +25,10 @@
       color: white;
     }
 
-
-
-
-    /*---------------------------------------
-       Social section
-    -----------------------------------------*/
     footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
       padding: 0px 0px 0px 0px;
       background-color: black;
       margin: 0px;
@@ -83,10 +80,6 @@
       text-align: center;
 
     }
-
-
-
-
 
     body {
 
@@ -286,7 +279,6 @@
     </ul>
   </nav>
   <main>
-    <!-- nav start -->
     <div class="bs-example">
       <nav class="navbar navbar-expand-md  navbar-dark fixed-top" style="background:#337AB7;">
         <a href="/doctor-dashboard" class="navbar-brand">Loomsoft</a>

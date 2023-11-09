@@ -1,19 +1,17 @@
 {% extends 'hospital/homebase.html' %}
-
 {% block content %}
 
-<br>
-<br>
-
-<div class="jumbotron" style="margin-bottom:0px;">
-  <h1 class="display-4" style="text-align:center;">Hola, paciente</h1>
-  <p class="lead">Bienvenido al sistema de gestión de Loomsoft.</p>
-  <hr class="my-4">
-  <p>Puedes acceder a muchas funciones una vez inicies sesión.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="/patientsignup" role="button">Registrarse</a>
-    <a class="btn btn-primary btn-lg" href="/patientlogin" role="button">Iniciar sesión/a>
-  </p>
+<div style="display: flex; align-items: center; justify-content: center; height: 100vh;">
+  <div class="jumbotron" style="text-align: center; background-color: #dddddd;">
+    <h1 class="display-4" style="text-align:center;">Hola, paciente</h1>
+    <p class="lead" style="color: black;">Bienvenido al sistema de gestión de Loomsoft.</p>
+    <hr class="my-4">
+    <p style="color: black;">Puedes acceder a muchas funciones una vez inicies sesión.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/patientsignup" role="button">Registrarse</a>
+      <a class="btn btn-primary btn-lg" href="/patientlogin" role="button">Iniciar sesión</a>
+    </p>
+  </div>
 </div>
 
 {% endblock content %}

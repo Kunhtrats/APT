@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Loomsoft</title>
-
+  <link rel="icon" href="{% static "images/favicon.png" %}" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,68 +27,24 @@
       color: white;
     }
 
-
-
-
-    /*---------------------------------------
-       Social section
-    -----------------------------------------*/
     footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
       padding: 0px 0px 0px 0px;
       background-color: black;
       margin: 0px;
     }
-
 
     #ftr {
 
       padding: 20px;
     }
 
-    .fa {
-
-      font-size: 23px;
-      width: 60px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-      border-radius: 50%;
-    }
-
-    .fa:hover {
-      opacity: 0.5;
-      text-decoration: none;
-    }
-
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-      margin-top: 30px;
-    }
-
-    .fa-whatsapp {
-      background: #25d366;
-      color: white;
-    }
-
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
-
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-
     p {
       text-align: center;
 
     }
-
-
-
-
 
     body {
 
@@ -295,7 +251,7 @@
 
     <div class="bs-example">
       <nav class="navbar navbar-expand-md  navbar-dark fixed-top" style="background:#337AB7;">
-        <a href="/admin-dashboard" class="navbar-brand">Administrador de centro médico</a>
+        <a href="/admin-dashboard" class="navbar-brand">Loomsoft</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
