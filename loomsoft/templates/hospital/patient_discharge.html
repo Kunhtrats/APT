@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>A simple, clean, and responsive HTML invoice template</title>
+  <title>Loomsoft</title>
 
   <style>
     .invoice-box {
@@ -15,7 +15,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, .15);
       font-size: 16px;
       line-height: 24px;
-      font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+      font-family: 'Arial', 'Arial', Arial, Arial, Arial;
       color: #555;
     }
 
@@ -230,14 +230,10 @@
   </table>
 </div>
 <br><br>
-<div class="download">
-  <a style="background:red; width:500px;" href="{% url 'download-pdf' patientId  %}">Descargar</a>
-</div>
 
 {%else%}
 <h5 style="text-align:center;">No has sido dado de alta por el centro médico</h5>
 <h5 style="text-align:center;">Tu tratamiento aún continúa</h5><br><br>
-<h6 style="text-align:center;">Cuando seas dado de alta, puedes descargar los detalles de tu consulta.</h6>
 {%endif%}
 
 <br><br><br><br><br><br><br><br>
