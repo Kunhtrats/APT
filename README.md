@@ -1,3 +1,2 @@
-# Proyecto APT-Loomsoft
-Proyecto APT realizado por el Grupo 1, conformado por: Miguel Alarcón, Aldo Gonzalez y Carlos Poblete.
-Este proyecto consiste en un sistema de administrador y gestión para un centro médico, específicamente los de sectores rurales.
+# Loomsoft-APT
+APT Project carried out by Group 1, formed by: Miguel Alarcón, Aldo Gonzalez and Carlos Poblete. This project consists of an administrator and management system for a medical center, specifically those in rural areas.
